@@ -1,5 +1,3 @@
-import Title from './components/header';
-import Flavors from './components/flavors';
 import Order from './components/order';
 import './style/App.css'
 

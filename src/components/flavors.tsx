@@ -2,7 +2,6 @@ import { useState } from "react";
 import '../style/flavors.css'
 
 
-let extraStyle = "";
 function getFlavorForStyle(flavor:string) {
   switch (flavor) {
     case "Chocolate Fudge":
