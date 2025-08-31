@@ -1,0 +1,92 @@
+.flavorGrid{
+    display: grid;
+    height: 70vh;
+    width: 80%;
+    row-gap: 20px;
+    column-gap: 15px;
+    grid-template-areas: 
+    "1 2 3 "
+    "4 5 6"
+    "7 8 9"
+    ;
+}
+
+
+.singalFlavor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 212, 245);
+    border-radius: 10px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+
+
+
+
+.chocolateStyle{
+   background-image: url(https://www.bing.com/th?id=OIF.5A4g%2bU%2f%2fmdTt565uMWK5Vw&w=129&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.vanillaStyle{
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.zGfz9uNstC0JKQwaQAhhFQHaHa?w=250&h=188&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.birthdayStyle{
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.33nBuERt0_SyYQDYflnY3gHaLH?w=800&h=1200&rs=1&pid=ImgDetMain&o=7&rm=3);
+   
+}
+
+.cookiesStyle{
+    background-color: url(https://tse4.mm.bing.net/th/id/OIP.G5KBCODZ2sJXBwBQjkav0gHaHa?w=151&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cookieDoughStyle{
+    background-color: url(https://tse4.mm.bing.net/th/id/OIP.AdPkVZrEwbmdvjAhAixHFQHaJ-?w=146&h=197&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cookieMonsterStyle{
+   background-image: url(https://tse3.mm.bing.net/th/id/OIP.ZCelc4OV5ky8FKA1i0smvwHaKX?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mintStyle{
+   background-image: url(https://tse3.mm.bing.net/th/id/OIP.-z5035Mn5U3f4HknACd7NwHaLH?w=208&h=305&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.selectButton{
+    
+    background-color:antiquewhite;
+    margin-top: 25%;
+    color:chocolate;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    font-weight: 550;
+    border:2px solid rgb(248, 241, 241);
+}
+
+.selectButton:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
